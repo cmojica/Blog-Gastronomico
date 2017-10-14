@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0%;
+	margin: 0%;
+}
+
+
+
+#f1{
+	background-color: rgba(255,255,255,.5);
+	border-bottom: 2px groove;
+
+}
+
+#f2{
+	background-color: lightgray;
+	filter: opacity(60%);
+}
+
+#col1{ 
+	border-right: 2px groove;
+}
+
+#btn1{
+	width: 15%;
+	height: auto;
+	background-color: deeppink;
+}
+
+#src{
+	
+}
+
+.hollow{
+	width: 100%;
+	color: deeppink !important;
+	border-color: deeppink !important;
+}
+
+#img1,#img2,#img3,#img4,#img5,#img6{
+	width: 70px;
+	height: 100px;
+	border: 2px solid #FFF9F9;
+}
+
+#divfav1{
+	padding: 2%;
+}
+
+@media screen and (min-width:901px){
+	#col4{
+		background-color: rgba(255,255,255,.5);
+		width: 100%!important;
+	}
+
+	#sub4{
+		background-color: pink;
+
+	}
+
+	p{
+		font-size: 14px;
+		text-align: justify;
+	}
+
+	#btn2{
+		margin-left: 84%;	
+	}
+	
+	body{
+		background: url("../img/cocina.jpg");
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+	
+	.fi-magnifying-glass{
+		width: 50e;
+		margin-top: 2%;
+	}
+	
+		#col3{
+		background-color: rgba(255,255,255,.5);		
+	}
+}
+
+
+@media screen and (max-width: 900px){
+	body{
+		background: url("../img/cocina.jpg");
+		background-size: 900px;
+		background-attachment: fixed;
+		
+	}
+	
+	#col4{
+		background-color: rgba(255,255,255,.5);
+		width: 900px!important;
+	}
+
+	#sub4{
+		background-color: pink;
+
+	}
+
+	p{
+		font-size: 14px;
+		text-align: justify;
+	}
+
+	#btn2{
+		margin-left: 70%;	
+	}
+	
+	#col3{
+		background-color: rgba(255,255,255,.5);
+		visibility: hidden; 
+		display:none; 	
+	
+	}
+}
